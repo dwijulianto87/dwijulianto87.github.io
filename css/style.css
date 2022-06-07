@@ -1,0 +1,299 @@
+
+body{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+
+nav.navbar{
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: #534340;
+  border-bottom: 1px solid #535353;
+}
+
+div#navbarNav a{   
+  padding: 1em;
+  color: white;
+  font-weight: 200;
+}
+
+
+div#navbarNav li.active > a{
+  font-weight: bold;
+}
+
+div#navbarNav a span{
+  font-weight: 400;
+}
+
+div#carouselControls{
+  font-weight: 200;
+  color: white;
+  background-color: #534340;
+}
+
+
+div#carouselControls div.row{
+  padding: 50px;
+}
+
+.features{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.features h5, .designer h5{
+  color: black;
+}
+
+.features h3, .designer h3, .similar h3, .cart-header h1, .similar h4, .cart-main h3, .modal-body h4, .category h4{
+  font-family: 'Lora';
+  color: #0B0363;
+  font-weight: bold;
+}
+
+.features p, .designer p, .figure p, .category p{
+  font-weight: 200;
+  color: #C4C4C4;
+}
+
+.figure-img{
+  position: relative;
+}
+
+.figure-img a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img a img{
+  align-self: center;
+}
+
+.figure-img:hover a{
+  opacity: 1;
+}
+
+
+.figure-caption-container{
+  margin: auto;
+  position: relative;
+  top: -40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 4px 15px rgb(0, 0, 0, 0.1);
+  width: 330px;
+  padding: 8px;
+}
+
+
+section.single-product .name-product {
+  padding: 20px;
+  color: black;
+}
+
+section.single-product .name-product  p, .item p{
+  color: #C4C4C4;
+}
+
+section.single-product .name-product  button.minus, .item .minus{
+  padding: 4px;
+  background-color: #C5D8A4;
+  border: white;
+  border-radius: 6px;
+}
+
+section.single-product .name-product  button.plus, .item .plus{
+  border: white;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #534340;
+}
+
+section.single-product .name-product  span{
+  padding: 0 4px;
+}
+
+.button-product{
+  margin: 20px 0 40px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+
+.button-product a{
+  margin-bottom: 10px;
+  padding: 4px 0;
+  width: 60%;
+  border: white;
+}
+
+div.button-product > .cart, div.btn-checkout .checkout, .btn-address{
+  border: transparent;
+  color: white;
+  background-color: #E2D904;
+}
+
+div.button-product > .wishlist, div.btn-checkout .cancel, .modal-body .btn-back-home{
+  color: white;
+  background-color: #d8e2ba;
+
+}
+
+.name-product h5{
+  margin-bottom: 20px;
+  color: #C4C4C4;
+}
+
+.name-product span{
+  color: black;
+}
+
+.name-product h6, .item h6{
+  font-weight: 600;
+} 
+
+
+
+/* product-description awal */
+.product-description{
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 500px;
+}
+
+#myTabContent{
+  height: 400px;
+  font-size: 16px;
+  font-weight: 200;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 28px;
+  box-shadow: 0 4px 15px rgb(0, 0, 0, 0.07);
+  overflow: auto;
+}
+
+#description{
+  padding: 1em;
+  line-height: 2em;
+}
+
+#review{
+  padding: 1em;
+  height: 400px;
+  font-size: 14px;
+}
+
+
+/* product-description akhir */
+
+
+
+/* similar awal */
+.similar{
+  color: #C4C4C4;
+  margin-bottom: 4em;
+}
+/* similar akhir */
+
+
+/* cart awal */
+.form-group label{
+  font-weight: 600;
+}
+.checkout{
+  margin-bottom: 10px;
+  padding: 4px 0;
+  width: 40%;
+  border: white;
+}
+
+.info-biaya .card{
+  background-color: #C7DAFF;
+  padding: 20px;
+}
+
+.info-biaya h5{
+  margin-bottom: 1.5em;
+  font-weight: 600;
+}
+
+
+.info-biaya h6{
+  font-weight: 600;
+}
+
+.info-biaya p{
+  color: #C4C4C4 ;
+}
+
+.info-biaya .ongkir p{
+  color: #E74C3C ;
+}
+.info-biaya .card .harga{
+  display: flex;
+  align-items: center;
+}
+
+.info-biaya .card .harga > p{
+  color: #22B14C;
+}
+
+.info-biaya .card .total-harga p{
+  color: #0B0363;
+}
+
+.btn-checkout .cancel{
+  border: transparent;
+  background-color: #F5FDDA;
+}
+/* cart akhir */
+
+
+/* footer awal*/
+footer{
+  border-top: 1px solid #C5D8A4;
+  height: 100px;
+  font-size: 0.8em;
+}
+
+footer .col-nav{
+  display: flex;
+  justify-content: end;
+}
+
+footer nav{
+  align-items: center;
+}
+
+.sosmed, .copyright{
+  padding-top: 12px;
+}
+
+footer img{
+  margin-right: 5px;
+}
+
+footer p, footer a{
+  color: #C4C4C4;
+}
+
+footer p > span{
+  color: black;
+}
+/* footer akhir */
+
+
+
